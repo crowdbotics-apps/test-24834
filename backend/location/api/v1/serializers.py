@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from location.models import TaskLocation, CustomerLocation, TaskerLocation, MapLocation
+from location.models import CustomerLocation, MapLocation, TaskerLocation, TaskLocation
 
 
 class MapLocationSerializer(serializers.ModelSerializer):

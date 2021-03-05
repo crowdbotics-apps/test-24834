@@ -46,6 +46,7 @@ urlpatterns = [
     path("api/v1/", include("task_category.api.v1.urls")),
     path("task_category/", include("task_category.urls")),
     path("home/", include("home.urls")),
+    path("api/v1/", include("newname.api.v1.urls")),
 ]
 
 admin.site.site_header = "Test"

@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     "location",
     "wallet",
     "task_category",
+    "newname",
 ]
 LOCAL_APPS = [
     "home",

@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .viewsets import TaskViewSet, MessageViewSet, TaskTransactionViewSet, RatingViewSet
+from .viewsets import MessageViewSet, RatingViewSet, TaskViewSet, TaskTransactionViewSet
 
 router = DefaultRouter()
 router.register("tasktransaction", TaskTransactionViewSet)

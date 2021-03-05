@@ -1,9 +1,9 @@
 from rest_framework import serializers
 from tasker_business.models import (
+    BusinessPhoto,
     TaskerAvailability,
     TaskerSkill,
     Timeslot,
-    BusinessPhoto,
 )
 
 

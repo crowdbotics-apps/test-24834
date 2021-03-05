@@ -1,10 +1,10 @@
 from rest_framework import serializers
 from wallet.models import (
+    CustomerWallet,
+    PaymentMethod,
     PaymentTransaction,
     TaskerPaymentAccount,
     TaskerWallet,
-    PaymentMethod,
-    CustomerWallet,
 )
 
 

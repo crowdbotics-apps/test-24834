@@ -1,10 +1,10 @@
 from django.contrib import admin
 from .models import (
+    CustomerWallet,
+    PaymentMethod,
     PaymentTransaction,
     TaskerPaymentAccount,
     TaskerWallet,
-    PaymentMethod,
-    CustomerWallet,
 )
 
 admin.site.register(PaymentTransaction)

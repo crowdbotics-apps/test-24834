@@ -1,17 +1,17 @@
 from rest_framework import authentication
 from wallet.models import (
+    CustomerWallet,
+    PaymentMethod,
     PaymentTransaction,
     TaskerPaymentAccount,
     TaskerWallet,
-    PaymentMethod,
-    CustomerWallet,
 )
 from .serializers import (
+    CustomerWalletSerializer,
+    PaymentMethodSerializer,
     PaymentTransactionSerializer,
     TaskerPaymentAccountSerializer,
     TaskerWalletSerializer,
-    PaymentMethodSerializer,
-    CustomerWalletSerializer,
 )
 from rest_framework import viewsets
 

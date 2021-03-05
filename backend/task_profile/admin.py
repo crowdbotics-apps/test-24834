@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import TaskerProfile, InviteCode, CustomerProfile, Notification
+from .models import CustomerProfile, InviteCode, Notification, TaskerProfile
 
 admin.site.register(CustomerProfile)
 admin.site.register(TaskerProfile)

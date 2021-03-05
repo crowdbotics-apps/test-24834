@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from task_profile.models import TaskerProfile, InviteCode, CustomerProfile, Notification
+from task_profile.models import CustomerProfile, InviteCode, Notification, TaskerProfile
 
 
 class CustomerProfileSerializer(serializers.ModelSerializer):

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from task_category.models import Subcategory, Category
+from task_category.models import Category, Subcategory
 
 
 class SubcategorySerializer(serializers.ModelSerializer):
